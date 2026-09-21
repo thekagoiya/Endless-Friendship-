@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ENDLESS FRIENDSHIP</title>
+
+<meta name="description"
+content="Endless Friendship - Three Computer Science students at Kirinyaga University 2025">
+
+<meta name="author"
+content="Wambui Ibrahim Kagoiya">
+
+<link rel="icon" href="Ibrahim.jpg" type="image/jpeg">
+
+<style>
+
+button.active{
+  background:hwb(8 8% 9%);
+  color:white;
+  font-size:15px;
+}
+
+#topic{
+  margin-top:10px;
+  background:rgb(9,151,84);
+  border:1px solid;
+  color:white;
+  border-radius:10px;
+  font-size:20px;
+}
+
+body{
+  background:rgb(14,15,15);
+  font-family:Arial,Helvetica,sans-serif;
+  color:white;
+  line-height:1.6;
+}
+
+#home{
+  background:rgba(128,60,188,0.13333333333333333);
+  color:white;
+  border:2px solid;
+  padding:5%;
+  border-radius:2%;
+  display:block;
+}
+
+#ibrahim{
+  display:none;
+  font-size:120%;
+  padding:5%;
+  background:#96971b;
+  color:#000000;
+  border-radius:15px;
+}
+
+#david{
+  display:none;
+  background:#b04949;
+  color:white;
+  border-radius:10px;
+  padding:5%;
+}
+
+#stephen{
+  display:none;
+  background:#83b049;
+  padding:5%;
+  border-radius:15px;
+  color:#000;
+}
+
+#comment{
+  background:#0f0b0b;
+  padding:1%;
+  border-radius:20px;
+  text-align:center;
+  color:#e7e7ea;
+}
+
+#company{
+  background:#ab9b38;
+  font-size:100%;
+  border-radius:10px;
+  padding:10px;
+  text-align:center;
+  color:#000;
+}
+
+#hom{
+  background:#7bc0d2;
+  font-size:20px;
+  padding:8px 12px;
+  border:none;
+  border-radius:10px;
+}
+
+#ibrahims{
+  background:#d27bcf;
+  border:none;
+  border-radius:12px;
+  padding:2px;
+}
+
+#davids{
+  background:#d2cd7b;
+  border:none;
+  border-radius:2px;
+  padding:2px;
+}
+
+#stephens{
+  background:#88d27b;
+  border:none;
+  border-radius:5px;
+  padding:2px;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+  border-radius:10px;
+  display:block;
+  margin:10px auto;
+}
+
+button{
+  margin-left:3px;
+  margin-top:3px;
+  cursor:pointer;
+}
+
+.contact{
+  background:white;
+  color:black;
+  padding:15px;
+  border-radius:10px;
+  margin-top:15px;
+}
+
+.contact a{
+  color:#065a26;
+}
+
+input,textarea{
+  width:100%;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  margin:5px 0;
+  box-sizing:border-box;
+}
+
+</style>
+
+</head>
+
+
+<!-- NAVIGATION BUTTONS -->
+
+<button onclick="home()" id="hom">
+Home
+</button>
+
+<button onclick="displayIbrahims()" id="ibrahims">
+About Ibrahim
+</button>
+
+<button id="davids" onclick="displayDavids()">
+About David
+</button>
+
+<button id="stephens" onclick="displayStephens()">
+About Stephen
+</button>
+
+
+<!-- TOPIC -->
+
+<marquee id="topic" behavior="alternate">
+
+<h4>
+Welcome to this website and read more about three friends with no limits in
+<q><strong>KIRINYAGA UNIVERSITY 2025</strong></q>
+</h4>
+
+</marquee>
+
+
+<!-- HOME -->
+
+<div id="home">
+
+<p>
+These friends decided that no matter what happens they will be there for each
+other to offer support.
+
+They said that no matter what happens - academic pressure, financial
+challenges, or distance - they will be there for each other to offer support,
+motivation and brotherhood.
+
+United by Computer Science at Kirinyaga University.
+</p>
+
+
+<ol>
+
+<img src="IMG_20260211_131454_759.jpg"
+     alt="friends"
+     width="280"
+     height="240">
+
+<img src="Ibrahim.jpg"
+     alt="Ibrahim"
+     width="280"
+     height="240">
+
+
+<li>
+
+<strong>WAMBUI IBRAHIM KAGOIYA</strong>
+
+<br>
+
+REGISTRATION NUMBER:
+<strong>CT101/G/26620/25</strong>
+
+</li>
+
+<hr>
+
+
+<img src="Steven.jpg"
+     alt="David"
+     width="280"
+     height="300">
+
+<br>
+
+
+<li>
+
+<strong>DAVID MUNGAI KIMANI</strong>
+
+<br>
+
+REGISTRATION NUMBER:
+<strong>CT101/G/26615/25</strong>
+
+</li>
+
+<hr>
+
+
+<img src="David.jpg"
+     alt="Stephen"
+     width="280"
+     height="250">
+
+
+<li>
+
+<strong>STEPHEN MUSYOKA ZYUKO:</strong>
+
+<br>
+
+REGISTRATION NUMBER:
+<strong>CT101/G/26571/25</strong>
+
+</li>
+
+
+<h5>
+
+This video was recorded in a waterfall found in
+Kutus, Kirinyaga County and
+<strong>Stephen</strong> was the videographer.
+
+</h5>
+
+
+<video
+src="VID_20260211_131204.mp4"
+autoplay
+muted
+loop
+controls
+style="max-width:100%;">
+</video>
+
+
+<!-- CONTACT -->
+
+<div class="contact">
+
+<h3>Connect With Us</h3>
+
+
+<p>
+
+Location:
+<strong>Kirinyaga University, Kerugoya, Kenya</strong>
+
+</p>
+
+
+<p>
+
+Course:
+
+<strong>
+<q>
+BSc Computer Science - CT101 Group Year 2, 2026/2027
+</q>
+</strong>
+
+</p>
+
+
+<!-- WHATSAPP -->
+
+<p>
+
+WhatsApp:
+
+<a
+href="https://wa.me/254112217156"
+target="_blank"
+rel="noopener noreferrer">
+
+Ibrahim
+
+</a>
+
+|
+
+<a
+href="https://wa.me/254708285919"
+target="_blank"
+rel="noopener noreferrer">
+
+David
+
+</a>
+
+|
+
+<a
+href="https://wa.me/254729106901"
+target="_blank"
+rel="noopener noreferrer">
+
+Stephen
+
+</a>
+
+</p>
+
+</div>
+
+
+<!-- MESSAGE FORM -->
+
+<h3>
+Leave a Message for ELF
+</h3>
+
+
+<form
+action="mailto:ibrahimkagoiya4@gmail.com"
+method="post"
+enctype="text/plain">
+
+
+<input
+type="text"
+name="Name"
+placeholder="Your Full Name"
+required>
+
+
+<input
+type="email"
+name="Email"
+placeholder="Your Email"
+required>
+
+
+<textarea
+name="Message"
+placeholder="Your message..."
+rows="4"
+required>
+</textarea>
+
+
+<button
+type="submit"
+style="
+background:green;
+color:white;
+width:100%;
+padding:10px;
+border:none;
+border-radius:8px;">
+
+Send Message
+
+</button>
+
+
+</form>
+
+
+</ol>
+
+</div>
+
+
+<!-- IBRAHIM -->
+
+<div id="ibrahim">
+
+<h3>
+1. WAMBUI IBRAHIM KAGOIYA
+</h3>
+
+
+<img
+src="IMG_20260919_144021_333 (2).jpg"
+width="240"
+height="250"
+alt="Ibrahim">
+
+
+<p>
+
+This student is from Molo in Nakuru County who desperately wanted to be in
+medical sectors as he was well prepared with biology and chemistry but
+unfortunately, he was placed to pursue a
+<strong>Bachelor's Degree in Computer Science in Kirinyaga University</strong>.
+
+Though he was disappointed, now he is thanking
+<q>KUCCPS</q>
+for placing him in such an advancing field of growing technology.
+
+</p>
+
+
+<p>
+
+Now he really loves coding and apart from learning C language as class work,
+now he is well conversant with
+<strong>HTML, JavaScript and CSS</strong>
+but currently studying C++ as his dream to be an embedded engineer in future
+to come true.
+
+</p>
+
+
+<h4>Attended</h4>
+
+<p>
+NJENGA KARUME SECONDARY SCHOOL
+</p>
+
+
+<h4>Vision</h4>
+
+<p>
+
+To become a full-stack developer and embedded engineer who builds solutions
+for Africa.
+
+Focused on first-class honors and building a strong portfolio before
+graduation.
+
+Believes in self-discipline and endless learning.
+
+</p>
+
+
+<a
+href="https://mail.google.com/mail/?view=cm&fs=1&to=ibrahimkagoiya4@gmail.com"
+target="_blank"
+rel="noopener noreferrer">
+
+Send Ibrahim an email
+
+</a>
+
+
+<p>
+or contact using:
+</p>
+
+
+<h3>
+Phone: 0112217156
+</h3>
+
+</div>
+
+
+<!-- DAVID -->
+
+<div id="david">
+
+<h1>
+DAVID KIMANI MUNGAI
+</h1>
+
+
+<img
+src="IMG_20260405_134118_296.jpg"
+width="100%"
+height="350"
+alt="David">
+
+
+<p>
+
+From Nakuru Town.
+
+A brilliant mind in
+<strong>Mathematics and Physics</strong>,
+his childhood dream was to become a teacher of those subjects.
+
+Guided by his father, he chose Computer Science at
+<strong>Kirinyaga University</strong>.
+
+The transition was hard, but finding friends like Ibrahim and Stephen changed
+everything.
+
+</p>
+
+
+<ul>
+
+<li>IBRAHIM</li>
+
+<li>STEPHEN</li>
+
+</ul>
+
+
+<p>
+
+It seems these two friends had a greater impact on David's life because he
+vacated to get near to them to be able to aim for skills and first class
+together.
+
+</p>
+
+
+<h4>
+Skills & Passion
+</h4>
+
+
+<p>
+
+David is the logic master of the group.
+
+Strong in algorithms, data structures, and mathematical computing.
+
+He helps the group understand complex concepts.
+
+Interested in
+<strong>
+Software Engineering, Data Analysis and Teaching Technology
+</strong>
+in future.
+
+</p>
+
+
+<a
+href="https://mail.google.com/mail/?view=cm&fs=1&to=davidmungai012@gmail.com"
+target="_blank"
+rel="noopener noreferrer">
+
+Send David an email
+
+</a>
+
+
+<h3>
+
+or contact:
+
+<br>
+
+phone: 0708285919
+
+</h3>
+
+</div>
+
+
+<!-- STEPHEN -->
+
+<div id="stephen">
+
+<h1>
+STEVEN MUSYOKA ZYUKO
+</h1>
+
+
+<img
+src="1789926180877.jpg"
+alt="Stephen"
+width="100%"
+height="350">
+
+
+<p>
+
+From Makueni County - proud Kamba.
+
+Alumnus of
+<strong>MUKUYUNI SECONDARY SCHOOL</strong>.
+
+A top academic performer with a unique talent - he is an excellent chef!
+
+Initially wanted to be an
+<strong>Electrical Engineer</strong>,
+now pursuing
+<strong>Computer Science at Kirinyaga University</strong>.
+
+Plans to pursue Electrical Engineering as a second degree.
+
+</p>
+
+
+<h4>
+Vision
+</h4>
+
+
+<p>
+
+To become a dual professional - a Software Developer and Electrical Engineer.
+
+He never gives up on dreams, believes in second chances, and hard work.
+
+Known in the group as the most caring, always checking on his friends'
+well-being and meals.
+
+</p>
+
+
+<a
+href="https://mail.google.com/mail/?view=cm&fs=1&to=stephenmusyoka12@gmail.com"
+target="_blank"
+rel="noopener noreferrer">
+
+Send Stephen an email
+
+</a>
+
+
+<br>
+
+
+<h3>
+
+or contact:
+
+<br>
+
+phone: +254729106901
+
+</h3>
+
+</div>
+
+
+<!-- QUOTE -->
+
+<marquee behavior="scroll">
+
+<div id="comment">
+
+<h4>
+
+<strong>
+
+<q>
+
+LOST SHEEP BUT PREFERS PRODIGAL SONS
+
+<br>
+
+-we were lost in different dreams but found
+
+<br>
+
+brotherhood in one campus
+
+</q>
+
+</strong>
+
+</h4>
+
+</div>
+
+</marquee>
+
+
+<!-- FOOTER -->
+
+<div id="company">
+
+<h4>
+
+<a
+href="https://mail.google.com/mail/?view=cm&fs=1&to=ibrahimkagoiya4@gmail.com"
+target="_blank"
+rel="noopener noreferrer">
+
+Created by:
+<strong>
+Endless Friendship Company (ELFC)
+</strong>
+
+</a>
+
+</h4>
+
+
+<p>
+
+CT101/G/26620/25 |
+
+CT101/G/26615/25 |
+
+CT101/G/26571/25
+
+</p>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+function hideAll(){
+
+  document.getElementById('home').style.display="none";
+
+  document.getElementById('ibrahim').style.display="none";
+
+  document.getElementById('david').style.display="none";
+
+  document.getElementById('stephen').style.display="none";
+
+
+  // Remove active from all buttons
+
+  document.getElementById('hom')
+  .classList.remove('active');
+
+  document.getElementById('ibrahims')
+  .classList.remove('active');
+
+  document.getElementById('davids')
+  .classList.remove('active');
+
+  document.getElementById('stephens')
+  .classList.remove('active');
+
+}
+
+
+function home(){
+
+  hideAll();
+
+  document.getElementById('home')
+  .style.display="block";
+
+  document.getElementById('hom')
+  .classList.add('active');
+
+}
+
+
+function displayIbrahims(){
+
+  hideAll();
+
+  document.getElementById('ibrahim')
+  .style.display="block";
+
+  document.getElementById('ibrahims')
+  .classList.add('active');
+
+}
+
+
+function displayDavids(){
+
+  hideAll();
+
+  document.getElementById('david')
+  .style.display="block";
+
+  document.getElementById('davids')
+  .classList.add('active');
+
+}
+
+
+function displayStephens(){
+
+  hideAll();
+
+  document.getElementById('stephen')
+  .style.display="block";
+
+  document.getElementById('stephens')
+  .classList.add('active');
+
+}
+
+
+// Make Home active on first load
+
+window.onload=function(){
+
+  document.getElementById('hom')
+  .classList.add('active');
+
+};
+
+</script>
+
+
+</body>
+
+  </html>
